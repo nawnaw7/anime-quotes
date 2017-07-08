@@ -1,5 +1,5 @@
 body {
-    background-color: crimson
+    background-color: crimson;
 }
 
 h1 {
@@ -19,8 +19,8 @@ h1 {
     background-color: whitesmoke;
     border-radius: 2px;
     -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.6);
--moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.6);
-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.6);
     position: relative;
 }
 
@@ -46,7 +46,6 @@ box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.6);
 #buttons {
     margin: 0px auto;
     text-align: center;
-    margin-top: 250px;
     position: absolute;
     bottom: 25px;
     left: 34%;
@@ -76,3 +75,44 @@ button:active {
 #icon {
     color: crimson;
 }
+
+
+@media only screen and (max-width: 768px) {
+    #quoteCard {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .quoteText, .quoteAuthor, .anime {
+        font-size: 95%;
+    }
+    
+    #buttons {
+        left: 24%;
+    }
+    
+    button {
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+    
+    button:hover {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

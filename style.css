@@ -76,6 +76,25 @@ button:active {
     color: crimson;
 }
 
+footer {
+    text-align: center;
+    margin-top: 90px;
+    color: whitesmoke;
+    text-shadow: 0px 1px 2px black;
+    font-size: 95%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
+#credits a {
+    text-decoration: none;
+    color: #F1CDCD;
+}
+
+#credits a:hover {
+    color: whitesmoke;
+}
+
 
 @media only screen and (max-width: 768px) {
     #quoteCard {
